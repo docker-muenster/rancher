@@ -1,3 +1,7 @@
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzcANCuypWiDBs90BoKSAJBQt0rEyrQ3Yx+b9AE/8nLunmogBDmupK50bWLkJXdBxsZuXJbfzxcjWmvEwJgHNN5heN/q8qK+I4CMktiCShm8xDhJWhucwTXctofdTKPApMGgLB5HQgL3GEWbHnjP8uZ0H1Rxdnhzlz1
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCS/thnoYaUYmuDxwQF9ES3Jsq6KltO+QU/8PVo1tUr5vlEfEY1Q9JYHiPKJW+U0cMH3a/Jv2IDTaH629djoNdtTottaYGDINBoVIlAdR+vwm3JzVUB02mb+QXTzhzLc58fdwhHN0PS82/BcSSFpQzI7PedRGMtzS6Qx
+
 rancher:
   services_include:
     https://raw.githubusercontent.com/docker-muenster/rancher/master/os-services/nginx-proxy.yml: true
