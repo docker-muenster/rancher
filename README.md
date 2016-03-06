@@ -9,6 +9,10 @@ Resources about Rancher
     <config options in YAML format..>
     <CTRL-D>
 
+## Loading new remote cloud config onto server
+
+    wget -O - https://raw.githubusercontent.com/docker-muenster/rancher/master/cloud-config/cloud-config.yml | sudo ros config merge
+
 ### Reloading networking configuration without reboot
 
 First, change the network configuration in the cloud config (see above on how do do that).
