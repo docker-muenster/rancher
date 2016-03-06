@@ -1,0 +1,6 @@
+rancher:
+  services_include:
+    https://raw.githubusercontent.com/docker-muenster/rancher/master/os-services/nginx-proxy.yml: true
+  environment:
+    # for nginx-proxy
+    DEFAULT_HOST: rancher.strahlungsfrei.de
